@@ -20,7 +20,10 @@ public class MyScript : MonoBehaviour {
 
     private void Update()
     {
+        float forward = Input.GetAxis("Vertical");
+        float side = Input.GetAxis("Horizontal");
 
+        Vector3 move = new Vector3(side, 0, forward);
     }
 
     private void FixedUpdate()
