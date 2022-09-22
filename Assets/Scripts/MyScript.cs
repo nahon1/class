@@ -33,7 +33,7 @@ public class MyScript : MonoBehaviour {
 
     private void LateUpdate()
     {
-        fgf
+       
     }
 
     private void OnCollisionEnter(Collider other)
